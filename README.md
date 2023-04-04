@@ -1,3 +1,4 @@
+# Awsomebooks-with-ES6
 
 <a name="readme-top"></a>
 
@@ -36,11 +37,12 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
+
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Awesome Books Library] <a name="about-project"></a>
 
-> wireframe structure for a book library webpage
+> ES6 structure setup for a Awesome book library webpage
 
 **[Awesome Books Library]** is an inital design project for a simple online book library.
 
@@ -77,10 +79,10 @@
 - **[No linter errors]**
 - **[Correct (GitHub flow)]**
 - **[Proper documented work]**
-- **[There are input fields for author name and book title]**
-- **[Both Li and delete button added dynamically through JavaScript]**
-- **[there is a delete option for removing a book]**
-- **[refactor to use JavaScript classes]**
+- **[Setup your project with the use of modules]**
+- **[Use of ES6 syntax]**
+- **[Code divided into modules]**
+- **[Use of let and const in the correct way]**
 
 
 
@@ -211,10 +213,6 @@ Example command:
 👤 ** Helina Abebe**
 - GitHub:[@helina42](https://github.com/helina42)
 
-👤 **Author2**
-** Steven Emmanuel Chijioke**
- - GitHub:[@emmanuelsteven](https://github.com/emmanuelsteven)
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -223,8 +221,8 @@ Example command:
 
 ## 🔭 Future Features <a name="future-features"></a>
  
-- **[Build a complete website with working navigation. When a user clicks on a link in the navigation bar, the content in the main section of the website changes]**
-- **[Through styling we will try to replicate the design provided to us by Microverse]**
+
+- **[Changes will be made as required in the future.]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -268,5 +266,3 @@ This project is [MIT](https://github.com/helina42/Library/blob/main/LICENSE.md)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-

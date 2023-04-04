@@ -1,5 +1,5 @@
-import Book from './Book.js';
-// update UI of the list books section
+import UI from './UI.js';
+
 export default class bookLib {
   bookList = [];
 
@@ -11,7 +11,6 @@ export default class bookLib {
     if (book.title.trim() !== '' && book.author.trim() !== '') {
       this.bookList = this.bookList.concat(book);
       localStorage.setItem('bookLib', JSON.stringify(this.bookList));
-      UI(book);
     }
   }
 

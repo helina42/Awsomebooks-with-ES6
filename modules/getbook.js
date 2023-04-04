@@ -1,13 +1,12 @@
 import Book from './Book.js';
-import myBookLib from '../index.js';
 
-// const myBook = new Book();
 const getBook = () => {
-  const title = document.querySelector('.title');
-  const author = document.querySelector('.author');
-  book = Book(myBookLib.bookList, title.value, author.value);
-  title.value = '';
-  author.value = '';
-  return book;
+  const titleHTML = document.querySelector('.title');
+  const authorHTML = document.querySelector('.author');
+  const randomId = `Id ${Date.now()}`;
+  const newBook = new Book(randomId, titleHTML.value, authorHTML.value);
+  titleHTML.value = '';
+  authorHTML.value = '';
+  return newBook;
 };
 export default getBook;

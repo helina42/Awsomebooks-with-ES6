@@ -1,22 +1,22 @@
-import Book from './modules/Book.js';
 import bookLib from './modules/BookLib.js';
 import getBook from './modules/getbook.js';
 import UI from './modules/UI.js';
 import { DateTime } from './modules/SetDate.js';
 
 const myBookLib = new bookLib([]);
-export default myBookLib;
+const ui = new UI(myBookLib);
 
 const addBtn = document.querySelector('.addBook');
 addBtn.addEventListener('click', () => {
   const book = getBook();
   myBookLib.addBook(book);
+  ui.generateBookHTML(book);
 });
 
 window.onload = () => {
   myBookLib.bookList = JSON.parse(localStorage.getItem('bookLib')) || [];
   myBookLib.bookList.forEach((book) => {
-    UI(book);
+    ui.generateBookHTML(book);
   });
 };
 
