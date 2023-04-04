@@ -42,7 +42,7 @@
 
 # 📖 [Awesome Books Library] <a name="about-project"></a>
 
-> ES6 structure setup for a Awesome book library webpage
+> ES6 structure setup for a Awesome book library webpage. And to practice the use of modules directory.
 
 **[Awesome Books Library]** is an inital design project for a simple online book library.
 
